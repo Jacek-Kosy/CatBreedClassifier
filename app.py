@@ -36,5 +36,5 @@ class Predict:
 
 if __name__=='__main__':
 
-    file_name='final.pkl'
+    file_name='model_final.pkl'
 predictor = Predict(file_name)
