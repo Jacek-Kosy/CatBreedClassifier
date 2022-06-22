@@ -5,7 +5,7 @@ import streamlit as st
 from fastai.vision.all import *
 from fastai.vision.widgets import *
 
-learn_inf = load_learner('model.pkl')
+learn_inf = load_learner('model_final.pkl')
 
 class Predict:
     def __init__(self, filename):
